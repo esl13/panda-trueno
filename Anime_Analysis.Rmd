@@ -1,0 +1,17 @@
+---
+title: "MAL Analysis"
+output: html_notebook
+---
+
+```{r message=FALSE, warning=FALSE, paged.print=FALSE}
+library("tidyverse")
+```
+
+Now we load the data
+
+```{r}
+anime <- read_csv("datasets/anime.csv")
+ratings <- read_csv("datasets/rating.csv")
+```
+
+
